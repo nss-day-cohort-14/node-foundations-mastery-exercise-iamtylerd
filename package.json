@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/nashville-software-school/node-foundations-mastery-exercise/issues"
   },
-  "homepage": "https://github.com/nashville-software-school/node-foundations-mastery-exercise#readme"
+  "homepage": "https://github.com/nashville-software-school/node-foundations-mastery-exercise#readme",
+  "dependencies": {
+    "event-stream": "^3.3.4",
+    "util": "^0.10.3"
+  }
 }
