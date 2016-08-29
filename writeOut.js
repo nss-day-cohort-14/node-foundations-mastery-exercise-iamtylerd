@@ -8,7 +8,6 @@ const { Writable } = require('stream')
 
 module.exports  = Writable({
 	write (buffer, _, cb) {
-
 		process.stdout.write(`${buffer}`), (err) => {
 			if (err) throw err;
 		}
